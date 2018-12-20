@@ -1,0 +1,34 @@
+<!-- This child template “extends” template(Parent).html -->
+{% extends "template(Parent).html" %}
+{% block title %}Welcome to {% endblock %}
+{% block content %}
+    <h3> Child template starts from here!</h3>
+    <br>
+    <h1>{{Title}}</h1>
+    <p>MindRoad has the following departments (Loop through the list):</p>
+    <ul>
+        {% for n in my_list %}
+        <li>{{n}}</li>
+        {% endfor %}
+    </ul>
+    <h3>Child Template ends here!</h3>
+    <h5>Built-in Filters</h5>
+    <br>
+    {% filter upper %}
+    Upper case :MindRoad AB
+    {% endfilter %}
+    <br>
+    <p>Sorting the list with a filter: {{ my_list|sort }}</p>
+    <p>Joining the list with a filter: {{ my_list|join(', ') }}</p>
+    <br>
+    <h5>Custom Filters</h5>
+    <p>Simple Custom Filter: Power Calculation </p>
+    {{my_var | POWER(4)}}
+    <br>
+    {% block footer %}
+        {{ super() }}
+        <style type="text/css">
+            .footer { color: red; }
+        </style>
+    {% endblock %}
+{% endblock %}

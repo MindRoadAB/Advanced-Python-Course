@@ -1,0 +1,8 @@
+setup.py
+testClick.py
+myClick.egg-info/PKG-INFO
+myClick.egg-info/SOURCES.txt
+myClick.egg-info/dependency_links.txt
+myClick.egg-info/entry_points.txt
+myClick.egg-info/requires.txt
+myClick.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+click
+jinja2
+flask
+PyYAML
+keyring >= 3.2.1            # Minimum version 3.2.1

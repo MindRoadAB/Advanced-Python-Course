@@ -1,0 +1,22 @@
+MindRoad:
+  Academy:
+  - Mattias
+  - Tony
+  Birth: 2016
+  Courses:
+    '1': Python
+    '2': Advanced Python
+    '3': Embedded Linux
+    '4': Advanced JavaScript
+  Embedded Group:
+  - Anders
+  - Tony
+  Programming Languages:
+    Programming:
+    - C#
+    - C++
+    - Python
+    - JavaScript
+    markup:
+    - HTML
+    - XML

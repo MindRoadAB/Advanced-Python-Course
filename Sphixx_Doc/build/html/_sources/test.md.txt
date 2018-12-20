@@ -1,0 +1,26 @@
+MindRoad Academy
+****************
+# Introduction
+
+This is a sample tutorial to use Sphinxdoc from MindRoad Academy
+
+# List of Departments
+
+MindRoad Contains the following departments:
+    * **Academy** Group
+    * **Embedded** Group
+    * **Application** Group
+    * **Sourcing**
+
+.. note::  
+
+    Here you can add a note!
+    
+.. warning::
+ 
+    Here you can add a warning message!
+
+.. code-block:: Python
+
+    Print("Hello from MindRoad")
+

@@ -1,0 +1,38 @@
+MindRoad:
+  Academy: [Mattias, Tony]
+  Birth: 2016
+  Courses: {'1': Python, '2': Advanced Python, '3': Embedded Linux, '4': Advanced
+      JavaScript}
+  Embedded Group: [Anders, Tony]
+  Programming Languages:
+    Programming: [C#, C++, Python, JavaScript]
+    markup: [HTML, XML]
+employee:
+  Colleague:
+  - {age: 23, name: Karl}
+  - &id001 {age: 37, name: Mattias}
+  - {age: 22, name: Oscar}
+  MindRoad: 'MindRoad Academy erbjuder spetsutbildningar inom data- och telekom, inbyggda
+    system om realtidsutveckling, applikationstuveckling samt agila metoder
+
+    '
+  age: 31.0
+  birthday: 1987-06-24
+  code: '<h1> MindRoad <h1>
+
+    '
+  emplyee1: {job: Manager, name: Asa}
+  gpa: '3.67'
+  id: *id001
+  male: true
+  name: Tony
+  occupation: System developer
+  programming Languages: [R, Python, C#, C++, JavaScript]
+  signature: 'Tony
+
+    MindRoad Academy
+
+    email: antoine.homsi@mindroad.se
+
+    '
+  status: null

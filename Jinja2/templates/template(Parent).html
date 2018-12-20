@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> {% block title %}{% endblock %} Jinja2 Tutorial from MindRoad  </title>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <style type="text/css">
+      .container {
+        max-width: 700px;
+        padding-top: 50px;
+      }
+      h3 {color: green;}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <!-- Template tags -->
+      <h1>{{Title}}</h1>
+      <h4> Information from the Parent Template </h4>
+      <br>
+        <!-- The child template can fill in! -->
+      {% block content %}{% endblock %}
+      <br>
+      <h4> Information from the Parent Template </h4>
+      <div class="footer">
+        {% block footer %}
+          &copy; Copyright 2018 by <a href="http://www.mindroad.se/sv-SE">MindRoad AB</a>.
+        {% endblock %}
+    </div>
+    </div>
+  </body>
+</html>
