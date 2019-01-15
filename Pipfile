@@ -7,11 +7,11 @@ name = "pypi"
 keyring = ">=3.2.1"
 flask = "==0.12.1"
 numpy = "*"
-django = "*"
+django = ">=2.1.5"
 
 [dev-packages]
 pytest = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3"
 pip
